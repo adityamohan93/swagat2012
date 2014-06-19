@@ -1,0 +1,154 @@
+@charset "utf-8";
+/*
+Theme Name: 
+Theme URI: http://www.WpThemeGenerator.com/
+Description:  A universal theme with more than 1000 different designs and options to combine and a powerful framework.
+Version: 1.0 
+Author: WpThemeGenerator
+Author URI:www.WpThemeGenerator.com
+Tags: black, blue, white, two-columns, custom-colors, custom-background.
+General comments and license statement: we provide this template as it is.
+*/
+/* CSS Document */
+@import url(css/reset.css);
+@import url(css/widgets.css);
+@import url(css/anythingslider.css);
+@import url(css/shortcodes.css);
+@import url(css/menu.css);
+@import url(css/nivo-slider.css);
+@import url(css/fonts.css);
+@import url(css/base_template.css);
+@import url(css/bootstrap.css);
+current_boxcss_widget{boxcss_6}
+current_boxcss_post{boxcss_default}
+no_slider{false}
+loader{true}
+.fullheader_menu_bar{height: 23px; display: none; }
+.header_menu_bar{background-image: url(graphic_elements/optional-menu/opt_menu_008.png); height: 28px; background-position: initial initial; background-repeat: initial initial; }
+.anythingSlider span.arrow a{background-image: url(graphic_elements/slider/sld_010_arr.png); width: 31px; height: 67px;}
+div.anythingSlider .back{top: 150px; left: -27px;}
+div.anythingSlider .forward{top: 150px; right: -27px;}
+.slider_area{background-image: url(graphic_elements/slider/sld_010_frm.png); width: 900px; height: 368px; padding: 20px 20px 0px; }
+.header_shine{background-image: url(graphic_elements/shines/shine_008.png); }
+.container_menu ul li a{line-height: 51px; color: rgb(44, 44, 44); font-size: 15px; font-family: Verdana, Geneva; }
+.container_menu ul li.back .left{background-image: url(graphic_elements/menu/menu_048_current.png); height: 24px; margin-right: 10px; }
+.container_menu ul li.back{left: 383px; width: 139px; top: 14px; background-image: url(graphic_elements/menu/menu_048_current.png); height: 24px; overflow: hidden; }
+.search_area{background-image: url(graphic_elements/search/search_004.png); height: 24px; width: 225px; padding: 10px 0px 13px 10px; margin: 16.5px 0px 0px; }
+.search_area input[type="text"]{height: 24px; float: left; width: 151px; color: rgb(102, 102, 102); }
+.search_area input[type="submit"]{height: 24px; float: left; width: 48px; }
+.container_menu{margin: 0px auto 20px; background-image: url(graphic_elements/menu/menu_048.png); height: 50px; }
+.post_author{background-image: url(graphic_elements/icon-post/iconpost_006.png); height: 16px; line-height: 16px; background-position: 0px 0px; }
+.post_date{background-image: url(graphic_elements/icon-post/iconpost_006.png); height: 16px; line-height: 16px; background-position: 0px -16px; }
+.post_categ{background-image: url(graphic_elements/icon-post/iconpost_006.png); height: 16px; line-height: 16px; background-position: 0px -32px; }
+.boxes{margin-bottom: 0px;   }
+.container_widgets_pieces{background-image: none; }
+.widget_top_left{background-image: none; }
+.widget_top_center{background-image: none; }
+.widget_top_right{background-image: none; }
+.widget_middle_left{background-image: none; }
+.widget_middle_right{background-image: none; }
+.widget_bottom_left{background-image: none; }
+.widget_bottom_center{background-image: none; }
+.widget_bottom_right{background-image: none; }
+.widget_token_right{background-image: none; }
+.widget_token_left{background-image: none; }
+.widget_token_bottom{background-image: none; height: 0px; }
+.blog_boxes{margin-bottom: 0px; }
+.container_posts_pieces{background-image: url(graphic_elements/boxes/box_041_ct.png); }
+.post_token_right{background-image: url(graphic_elements/boxes/box_041_token_right.png); }
+.post_token_left{background-image: none; }
+.post_top_left{background-image: url(graphic_elements/boxes/box_041_cr.png); }
+.post_top_center{background-image: url(graphic_elements/boxes/box_041_tb.png); }
+.post_top_right{background-image: url(graphic_elements/boxes/box_041_cr.png); }
+.post_middle_left{background-image: url(graphic_elements/boxes/box_041_ss.png); }
+.post_middle_right{background-image: url(graphic_elements/boxes/box_041_ss.png); }
+.post_bottom_left{background-image: url(graphic_elements/boxes/box_041_cr.png); }
+.post_bottom_center{background-image: url(graphic_elements/boxes/box_041_tb.png); }
+.post_bottom_right{background-image: url(graphic_elements/boxes/box_041_cr.png); }
+.post_token_bottom{background-image: none; height: 0px; }
+.more-link{font-size: 16px; text-decoration: none; padding: 0px 15px; line-height: 41px; height: 47px; background-image: url(graphic_elements/read-more/readmore_001_ct.png); margin: 20px 5px 0px; color: rgb(86, 86, 86); }
+.more-link_left{background-image: url(graphic_elements/read-more/readmore_001_ss.png); width: 5px; left: -5px; }
+.more-link_right{background-image: url(graphic_elements/read-more/readmore_001_ss.png); width: 5px; right: -5px; }
+.header_shadow{display: block; background-image: url(graphic_elements/shadows/shadow_017.png); background-repeat: no-repeat no-repeat; }
+.comments_link{font-size: 28px; color: rgb(68, 68, 68); background-image: url(graphic_elements/comment-link/cmmlink_009.png); width: 58px; height: 63px; line-height: 54px; left: auto; display: none; background-position: 100% 0%; }
+.head_post{padding: 0px 0px 20px; display: block; }
+.footer_separate{display: block; background-image: url(graphic_elements/divisors/divisor_005.png); background-attachment: initial; background-origin: initial; background-clip: initial; background-color: initial; height: 10px; bottom: -5px; background-position: initial initial; background-repeat: initial initial;                   }
+.icon_socials li.ic_facebook{background-image: url(graphic_elements/social-network/setpack_social_013.png); height: 38px; width: 37px; background-position: 0px 50%; }
+.icon_socials li.ic_twitter{background-image: url(graphic_elements/social-network/setpack_social_013.png); height: 38px; width: 37px; background-position: -37px 50%; }
+.icon_socials li.ic_rss{background-image: url(graphic_elements/social-network/setpack_social_013.png); height: 38px; width: 37px; background-position: -74px 50%; }
+.icon_socials li.ic_mail{background-image: url(graphic_elements/social-network/setpack_social_013.png); height: 38px; width: 37px; background-position: -111px 50%; }
+.icon_socials li.ic_plus{background-image: url(graphic_elements/social-network/setpack_social_013.png); height: 38px; width: 37px; background-position: -148px 50%; }
+.icon_socials li.ic_linkedin{background-image: url(graphic_elements/social-network/setpack_social_013.png); height: 38px; width: 37px; background-position: -185px 50%; }
+.icon_socials li.ic_rssmail{background-image: url(graphic_elements/social-network/setpack_social_013.png); height: 38px; width: 37px; background-position: -222px 50%; }
+.icon_socials li.ic_skype{background-image: url(graphic_elements/social-network/setpack_social_013.png); height: 38px; width: 37px; background-position: -259px 50%; }
+ul.icon_socials{margin: 21px 10px 0px; }
+.nivo-prevNav{background-image: url(graphic_elements/slider/sld_010_arr.png); width: 31px; height: 67px; top: 150px; left: -27px;}
+.nivo-nextNav{background-image: url(graphic_elements/slider/sld_010_arr.png); width: 31px; height: 67px; top: 150px; right: -27px;}
+.post_commts{display: block; background-image: url(graphic_elements/icon-post/iconpost_006.png); height: 16px; line-height: 16px; background-position: 0px -48px; }
+.body_theme h1{none  }
+.body_theme h2{font-family: 'Just Another Hand', cursive; font-size: 48px;   }
+.body_theme h3{font-family: 'Just Another Hand', cursive; font-size: 44px;   }
+theme_change{true}
+current_lay{layout_2}
+wrap_bk_color{rgb(228, 228, 228)}
+wrap_content_pattern{url(graphic_elements/pattern/pattern_115.png)}
+.body_theme h4{none  }
+.body_theme h5{none  }
+.body_theme h6{none  }
+slider_bkcolor{rgb(32, 32, 32)}
+body{background-color: rgb(17, 18, 36); }
+.clipart{background-image: url(graphic_elements/clipart/clipart_058.png); background-position: 50% 0%; }
+.wrap_lay3{none  }
+.slider_shadow{display: none;   }
+.header_pattern{background-image: none; display: none;   }
+.header_separate{display: none;   }
+.slider_pattern{display: none;   }
+.content_pattern{background-image: url(graphic_elements/pattern/pattern_011.png); display: none;   }
+pattern_body_lay{graphic_elements/pattern/pattern_020.png}
+logo{graphic_elements/logo/logo_004.png}
+menu_back{'top': 14, 'background-image': 'url(graphic_elements/menu/menu_048_current.png)', 'height': 24}
+.content_separate{display: none;   }
+#header{padding-top: 23px; padding-right: 0px; padding-bottom: 23px; padding-left: 0px;   }
+.wrap_lay2{background-color: rgb(228, 228, 228); display: block; background-image: url(graphic_elements/pattern/pattern_115.png);   }
+.wrap_lay4{none  }
+.wrap_lay5{none  }
+.wrap_lay6{none  }
+.wrap_lay7{none  }
+.footer_shadow{display: none;   }
+.footer_pattern{display: none;   }
+.slider_separate{none  }
+.content_shadow{display: none;   }
+.wrapper_pattern{none  }
+.widget_content{background-image: none; }
+content_pattern_wka{background-image: url(graphic_elements/pattern/pattern_011.png); display: none;   }
+type_current_logo{image}
+#content{padding: 0px 0px 20px; }
+body{background-color: rgb(17, 18, 36); background-image: url(graphic_elements/pattern/pattern_020.png); }
+.clipart{background-image: url(graphic_elements/clipart/clipart_058.png); background-position: 50% 0%; }
+.wrapper_header{background-color: transparent; }
+#header{padding: 23px 0px; }
+.wrap_lay2{background-color: rgb(228, 228, 228); background-image: url(graphic_elements/pattern/pattern_115.png); }
+.wrap_lay3{none}
+.wrap_lay4{none}
+.wrap_lay5{none}
+.wrap_lay6{none}
+.wrap_lay7{none}
+.global_wrapper{background-color: rgb(228, 228, 228); background-image: url(graphic_elements/pattern/pattern_115.png); }
+.slider_shadow{display: none; }
+.footer_shadow{display: none; }
+.footer_pattern{display: none; }
+.header_pattern{background-image: url(graphic_elements/pattern/pattern_020.png); display: none; }
+.header_separate{display: none; }
+.slider_separate{none}
+.content_shadow{display: none; }
+.content_separate{display: none; }
+.wrapper_slider{background-color: transparent; }
+.slider_pattern{display: none; background-image: none; }
+.wrapper_content{background-color: transparent; }
+.content_pattern{background-image: url(graphic_elements/pattern/pattern_115.png); display: none; }
+elem_test2{hide}
+elem_.search_area{show}
+elem_ul.icon_socials{show}
+elem_.container_menu{show}
+.post_content{none}
+.post_tag{none}
